@@ -1,0 +1,34 @@
+series_button:
+  - xpath
+  - '//span[text()="'
+  - '"]'
+add_rigid_button:
+  - xpath
+  - '//span[text()="添加为刚性配准副图"]'
+add_nonrigid_button:
+  - xpath
+  - '//span[text()="添加非刚性配准"]'
+rigid_function_button:
+  # 执行刚性配准，序号为2；保存刚性配准按钮，序号为5
+  - css selector
+  - .tps-ant-space-item
+progress_bar:
+  # 进度条，序号为-1
+  - xpath
+  - '//label[text()="添加配准关系..."]'
+show_tree_node_button:
+  # 展开节点按钮
+  - css selector
+  - .ag-icon-tree-closed
+nonrigid_function_button:
+  # 执行非刚，序号为1;保存非刚，序号为2
+  - css selector
+  - .tps-ant-space-item
+registration_name_input:
+  # 配准关系名称输入框
+  - id
+  - 配准关系另存为_name
+submit_button:
+  # 序号-1
+  - css selector
+  - .tps-ant-btn-primary

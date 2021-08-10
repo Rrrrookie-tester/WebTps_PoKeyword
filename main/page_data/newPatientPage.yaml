@@ -1,0 +1,7 @@
+new_patient_name_input:
+  # 患者姓名输入框，序号0
+  - xpath
+  - //*[@id="cdk-overlay-0"]/nz-modal-container/div/div/div[2]/app-register-details-modal/div/form/div[1]/div[1]/nz-form-item/nz-form-control/div/div/input
+submit_button:
+  - css selector
+  - .ant-modal-footer > .ant-btn-primary

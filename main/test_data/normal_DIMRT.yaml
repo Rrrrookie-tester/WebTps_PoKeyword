@@ -1,0 +1,60 @@
+patient_config:
+  - autotest_0809                         # 患者姓名
+  - \\dataserver03\rt\00_RT_Public\zexin\DICOM\SHCA\RECTUM\DINGGUO HUA_RT023821\20190711_1.2.840.113704.1.111.8140.1562805550.1_2                                  # 序列位置
+  - CT                                       # 序列名称
+  - Default Template                         # 电子密度表名称
+roi_config:
+  - Rectun_xzx                               # ROI模板名称
+  -
+    - margin                                 # 函数类型
+    - expand                                 # 计算方式
+    - 0                                      # 0（目标类型，0为ROI;1为function）
+    - PTV_Rectum                             # 目标名字
+    - 1.5                                    # 缩放大小
+    - 0                                      # 环大小，不创建环为0
+  -
+    - combine
+    - merge                                  # 合并，相交，相减，异或/merge,intersect,subtract,xor
+plan_ng_config:
+  - plan_dimrt_autotest                      # 计划名称
+  - ng1_autotest                             # 归一组名称
+  - Trilogy-SN6334                           # 机器名称
+  - PHOTON                                   # 照射类型
+  - DIMRT                                    # 技术类型
+  - 20                                       # 分次数
+  - 200                                      # 单次剂量
+  - 95                                       # 处方百分比
+  - PTV_Rectum                               # 处方ROI
+  - 95                                       # 体积剂量
+beam_config:
+  -
+      - beam1_autotest                       # 射束名称
+      - PTV_Rectum                           # 目标ROI
+      - 6X                                   # 照射模式
+      - 600                                  # 剂量率
+      - 15                                   # 射束角度
+      - 0                                    # 射束弧长
+  -
+      - beam2_autotest
+      - PTV_Rectum
+      - 6X
+      - 600
+      - 75
+      - 0
+optimization_constraint_config:
+  -
+      - PTV_Rectum                           # ROI名称
+      - 最小剂量                              # 约束类型
+      - 4000                                 # 剂量
+      - 0                                    # 强弱约束（1为弱，0为强）
+      - 90                                   # 权重
+      - 0                                    # EUD a值，非EUD类型约束该字段为0
+      - 0                                    # DVH体积，非DVH类型约束该字段为0
+  -
+      - PTV_Rectum
+      - 最小DVH
+      - 3600
+      - 1
+      - 90
+      - 0
+      - 90

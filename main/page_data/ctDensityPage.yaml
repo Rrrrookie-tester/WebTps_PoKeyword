@@ -1,0 +1,14 @@
+density_select_box:
+  # 电子密度表下拉框
+  - css selector
+  - .tps-ant-select-selector
+
+density_select_item:
+  # 电子密度表下拉框选项
+  - xpath
+  - '//div[@title="Default Template"]'
+
+submit_button:
+  # 确定按钮
+  - css selector
+  - .tps-ant-btn-primary
