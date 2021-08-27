@@ -1,0 +1,43 @@
+[32mINFO    [0m BasePage.py:BasePage.py:44 open http://10.8.77.100:10010 succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:62 max window succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send autotester01 to username_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send 10retsetotua to password_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click login_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send AT_AS_headNeck to patient_name_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click search_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:181 double click select_patient succeed !
+[31m[1mERROR   [0m BasePage.py:BasePage.py:90 local counter_button error !
+[35mDEBUG   [0m BasePage.py:BasePage.py:91 selector:[css selector,.portal-ant-card-type-inner]
+[35mDEBUG   [0m BasePage.py:BasePage.py:92 Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 84, in local
+    WebDriverWait(self.driver, flag).until(EC.visibility_of_element_located(loc))
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[31m[1mERROR   [0m BasePage.py:BasePage.py:116 click counter_button error !
+[35mDEBUG   [0m BasePage.py:BasePage.py:117 Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 84, in local
+    WebDriverWait(self.driver, flag).until(EC.visibility_of_element_located(loc))
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 113, in click
+    self.local(element_name, loc, num, flag).click()
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 93, in local
+    self.quit()
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 57, in quit
+    quit()
+  File "C:\Users\zexin.xu\AppData\Local\Programs\Python\Python37\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BE196FB388>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/076f94c91c8ab49e1a6f3d626a51da32
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BE19739648>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/076f94c91c8ab49e1a6f3d626a51da32
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BE19739548>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/076f94c91c8ab49e1a6f3d626a51da32

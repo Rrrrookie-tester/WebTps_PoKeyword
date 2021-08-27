@@ -1,0 +1,45 @@
+head_neck_button:
+  # 自动勾画部位按钮（1头颈部，2外轮廓...）
+#  - css selector
+#  - .tps-ant-modal-content .ag-center-cols-container :nth-child(1)
+  - xpath
+  - '//div[text()="Head And Neck"]'
+other_button:
+  # 自动勾画部位按钮（1头颈部，2外轮廓...）
+  - xpath
+  - '//div[text()="Others"]'
+cavumpelvis_button:
+  # 自动勾画部位按钮（1头颈部，2外轮廓...）
+  - xpath
+  - '//div[text()="CavumPelvis(Male)"]'
+chest_button:
+  # 自动勾画部位按钮（1头颈部，2外轮廓...）
+  - xpath
+  - '//div[text()="Chest"]'
+abdomen_button:
+  # 自动勾画部位按钮（1头颈部，2外轮廓...）
+  - xpath
+  - '//div[text()="Abdomen"]'
+bloodvessel_button:
+  # 自动勾画部位按钮（1头颈部，2外轮廓...）
+  - xpath
+  - '//div[text()="Head And Neck"]'
+all_select_button:
+  # 全选ROI框
+  - css selector
+  - .tps-ant-checkbox-input
+move_button:
+  # 穿梭框按钮（0向右，1向左）
+  - css selector
+  - .tps-ant-btn-circle
+submit_button:
+  # 确定按钮
+  - css selector
+  - .tps-ant-btn-primary
+roi_color:
+  # roi颜色样式
+  - css selector
+  - .color-icon
+auto_segment_result:
+  - xpath
+  - /html/body/div[4]/div/div/div/div/div/span[2]

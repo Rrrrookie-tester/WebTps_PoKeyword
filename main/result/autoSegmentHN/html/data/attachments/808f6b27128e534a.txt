@@ -1,0 +1,40 @@
+2021-08-18 10:06:43,635 - BasePage.py - INFO - open http://10.8.77.100:10010 succeed !
+2021-08-18 10:06:43,895 - BasePage.py - INFO - max window succeed !
+2021-08-18 10:06:43,994 - BasePage.py - INFO - send autotester01 to username_input succeed !
+2021-08-18 10:06:44,106 - BasePage.py - INFO - send 10retsetotua to password_input succeed !
+2021-08-18 10:06:44,411 - BasePage.py - INFO - click login_button succeed !
+2021-08-18 10:06:54,548 - BasePage.py - INFO - send AT_AS_headNeck to patient_name_input succeed !
+2021-08-18 10:06:54,608 - BasePage.py - INFO - click search_button succeed !
+2021-08-18 10:06:59,871 - BasePage.py - INFO - double click select_patient succeed !
+2021-08-18 10:07:05,018 - BasePage.py - ERROR - local counter_button error !
+2021-08-18 10:07:05,018 - BasePage.py - DEBUG - selector:[css selector,.portal-ant-card-type-inner]
+2021-08-18 10:07:05,020 - BasePage.py - DEBUG - Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 84, in local
+    WebDriverWait(self.driver, flag).until(EC.visibility_of_element_located(loc))
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2021-08-18 10:07:07,267 - BasePage.py - ERROR - click counter_button error !
+2021-08-18 10:07:07,271 - BasePage.py - DEBUG - Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 84, in local
+    WebDriverWait(self.driver, flag).until(EC.visibility_of_element_located(loc))
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 113, in click
+    self.local(element_name, loc, num, flag).click()
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 93, in local
+    self.quit()
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 57, in quit
+    quit()
+  File "C:\Users\zexin.xu\AppData\Local\Programs\Python\Python37\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+

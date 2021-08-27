@@ -1,0 +1,67 @@
+plan_name_input:
+  # 计划名称输入框
+  - id
+  - planInformation_planName
+ng_name_input:
+  # ng名称输入框
+  - id
+  - beamGroupInformation_beamGroupName
+machine_select_box:
+  # 机器列表下拉框，序号2
+  - css selector
+  - .tps-ant-select-selector
+machine_select_item:
+  - xpath
+  - '//div[@title="'
+  - '"]'
+radiation_type_box:
+  # 放射类型下拉框，序号3
+  - css selector
+  - .tps-ant-select-selector
+radiation_type_item:
+  - xpath
+  - '//div[@title="'
+  - '"]'
+technology_type_box:
+  # 技术类型下拉框，序号4
+  - css selector
+  - .tps-ant-select-selector
+technology_type_item:
+  - xpath
+  - '//div[@title="'
+  - '"]'
+fraction_input:
+  # 分次数输入框
+  - id
+  - beamGroupGoal_numberOfFraction
+single_dose_input:
+  # 单次剂量输入框
+  - id
+  - beamGroupGoal_dosePerFraction
+prescription_percentage_input:
+  # 处方百分比
+  - id
+  - beamGroupGoal_prescriptionPercentage
+goal_radio_button:
+  # 目标靶区单选按钮(序号0，1，2)
+  - css selector
+  - .tps-ant-modal-body > .tps-ant-radio
+beamGroupGoal_roiPropertiesId_box:
+  # 感兴趣区域体积剂量模式下拉框
+  - id
+  - beamGroupGoal_roiPropertiesId
+beamGroupGoal_roiPropertiesId_item:
+  - xpath
+  - '//div[@title="'
+  - '"]'
+beamGroupGoal_doseVolume_input:
+  # 感兴趣区域体积剂量模式输入框
+  - id
+  - beamGroupGoal_doseVolume
+radio_button:
+  - xpath
+  - //*[@id="beamGroupGoal_prescriptionTypeId"]/label[2]
+submit_button:
+  # 确定按钮，序号为1
+  - css selector
+  - .tps-ant-btn-primary

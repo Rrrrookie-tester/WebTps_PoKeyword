@@ -1,0 +1,450 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: None\nassert False",
+      "children" : [ {
+        "name" : "test_cavumPelvis_auto_segmentation[CT]",
+        "uid" : "95c3ec6c1525ec33",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629194212087,
+          "stop" : 1629194293213,
+          "duration" : 81126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT1]",
+        "uid" : "e4fa904d97577a8f",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629194322256,
+          "stop" : 1629194403470,
+          "duration" : 81214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT1'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT3]",
+        "uid" : "c436d08ef2e09c7d",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629194481781,
+          "stop" : 1629194562920,
+          "duration" : 81139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT3'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT4]",
+        "uid" : "a0a14a26ebe747c8",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629194591715,
+          "stop" : 1629194672840,
+          "duration" : 81125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT4'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT5]",
+        "uid" : "5fbb4e774494d2e",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629194701376,
+          "stop" : 1629194782510,
+          "duration" : 81134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT5'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT6]",
+        "uid" : "9eb784cd1d73f3f8",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629194811660,
+          "stop" : 1629194892787,
+          "duration" : 81127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT6'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT7]",
+        "uid" : "f4970eb14bdfb4ae",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629194921698,
+          "stop" : 1629195002886,
+          "duration" : 81188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT7'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT8]",
+        "uid" : "d2a9de6e0cbb0a46",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195031730,
+          "stop" : 1629195112899,
+          "duration" : 81169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT8'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT9]",
+        "uid" : "844ecdcb23904f58",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195141892,
+          "stop" : 1629195223075,
+          "duration" : 81183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT9'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT10]",
+        "uid" : "468afab41cdd0764",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195252221,
+          "stop" : 1629195333351,
+          "duration" : 81130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT10'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT11]",
+        "uid" : "a6dff08a913ce85f",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195362343,
+          "stop" : 1629195443479,
+          "duration" : 81136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT11'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT12]",
+        "uid" : "9a2285686b88a02",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195472343,
+          "stop" : 1629195553423,
+          "duration" : 81080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT12'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT13]",
+        "uid" : "c8a4fc57d8dfb99c",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195582140,
+          "stop" : 1629195663311,
+          "duration" : 81171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT13'" ]
+      }, {
+        "name" : "test_cavumPelvis_auto_segmentation[CT14]",
+        "uid" : "da3cac051150c502",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195692557,
+          "stop" : 1629195773646,
+          "duration" : 81089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT14'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT2]",
+        "uid" : "5f0777cfebeb81f",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629195960735,
+          "stop" : 1629196040655,
+          "duration" : 79920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT2'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT7]",
+        "uid" : "99acdbd66bc72b18",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629196505943,
+          "stop" : 1629196585909,
+          "duration" : 79966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT7'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT]",
+        "uid" : "e9b117f71fb7fdc",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629197317480,
+          "stop" : 1629197457440,
+          "duration" : 139960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT1]",
+        "uid" : "b7ed52c1815cbb2b",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629197486463,
+          "stop" : 1629197626404,
+          "duration" : 139941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT1'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT2]",
+        "uid" : "3163549c49891bed",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629197655138,
+          "stop" : 1629197795042,
+          "duration" : 139904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT2'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT3]",
+        "uid" : "3df4065e2372d11b",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629197824139,
+          "stop" : 1629197964065,
+          "duration" : 139926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT3'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT4]",
+        "uid" : "3a4191fcf38474f0",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629197993112,
+          "stop" : 1629198132997,
+          "duration" : 139885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT4'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT5]",
+        "uid" : "195c77125dc866b7",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629198161987,
+          "stop" : 1629198301907,
+          "duration" : 139920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT5'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT6]",
+        "uid" : "22964feed1b6b847",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629198331008,
+          "stop" : 1629198470945,
+          "duration" : 139937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT6'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT7]",
+        "uid" : "452307628f8901d9",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629198500124,
+          "stop" : 1629198640039,
+          "duration" : 139915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT7'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT9]",
+        "uid" : "5cc0771d712b09b3",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629198669046,
+          "stop" : 1629198808954,
+          "duration" : 139908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT9'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT10]",
+        "uid" : "80157bbfc0458334",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629198838234,
+          "stop" : 1629198978163,
+          "duration" : 139929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT10'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT11]",
+        "uid" : "f4ff649309d7ee21",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629199006845,
+          "stop" : 1629199146742,
+          "duration" : 139897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT11'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT12]",
+        "uid" : "bcfd2b2f07f0e21a",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629199175545,
+          "stop" : 1629199315480,
+          "duration" : 139935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT12'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT13]",
+        "uid" : "84cd1ea02ef27155",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629199344414,
+          "stop" : 1629199484376,
+          "duration" : 139962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT13'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT14]",
+        "uid" : "6d223c0f37e5c107",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629199513509,
+          "stop" : 1629199653454,
+          "duration" : 139945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT14'" ]
+      } ],
+      "uid" : "898285d9634b81988f65a722ff50018f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "SystemExit: None",
+      "children" : [ {
+        "name" : "test_cavumPelvis_auto_segmentation[CT2]",
+        "uid" : "279895c5db9aa3e7",
+        "parentUid" : "7bf65cc509c17fbc385bc37b1c70ea38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629194432709,
+          "stop" : 1629194451508,
+          "duration" : 18799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT2'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT]",
+        "uid" : "c1cbc392756aaf0",
+        "parentUid" : "7bf65cc509c17fbc385bc37b1c70ea38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629195802512,
+          "stop" : 1629195821341,
+          "duration" : 18829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT8]",
+        "uid" : "eb529b2e49fcbd1f",
+        "parentUid" : "7bf65cc509c17fbc385bc37b1c70ea38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629196614691,
+          "stop" : 1629196633484,
+          "duration" : 18793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT8'" ]
+      } ],
+      "uid" : "7bf65cc509c17fbc385bc37b1c70ea38"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

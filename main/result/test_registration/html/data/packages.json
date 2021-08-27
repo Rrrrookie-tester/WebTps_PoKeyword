@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_registration",
+    "children" : [ {
+      "name" : "test_registration[registration_config0]",
+      "uid" : "63908d890822124a",
+      "parentUid" : "6cdb349a9b5bd84329e0f32a37828e24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733050202,
+        "stop" : 1628733444364,
+        "duration" : 394162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['(AT)registration_noraml', '\\\\\\\\dataserver03\\\\rt\\\\00_RT_Public\\\\zexin\\\\DICOM\\\\SHCA\\\\LUNG\\\\XIAOXING GUO$_RT025570\\\\20190829_1.2.840.113704.1.111.2052.1567059994.1_2', '3']" ]
+    } ],
+    "uid" : "6cdb349a9b5bd84329e0f32a37828e24"
+  } ]
+}

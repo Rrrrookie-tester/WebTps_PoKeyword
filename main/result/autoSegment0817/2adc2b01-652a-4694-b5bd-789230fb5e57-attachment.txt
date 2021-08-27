@@ -1,0 +1,29 @@
+2021-08-17 18:22:59,152 - BasePage.py - INFO - open http://10.8.77.100:10010 succeed !
+2021-08-17 18:22:59,535 - BasePage.py - INFO - max window succeed !
+2021-08-17 18:22:59,730 - BasePage.py - INFO - send autotester01 to username_input succeed !
+2021-08-17 18:22:59,854 - BasePage.py - INFO - send 10retsetotua to password_input succeed !
+2021-08-17 18:23:00,310 - BasePage.py - INFO - click login_button succeed !
+2021-08-17 18:23:10,469 - BasePage.py - INFO - send AT_AS_Chest to patient_name_input succeed !
+2021-08-17 18:23:10,535 - BasePage.py - INFO - click search_button succeed !
+2021-08-17 18:23:11,852 - BasePage.py - INFO - double click select_patient succeed !
+2021-08-17 18:23:12,506 - BasePage.py - INFO - click counter_button succeed !
+2021-08-17 18:23:12,507 - chestAutoSegmentation - INFO - open patient: AT_AS_Chest 
+2021-08-17 18:23:22,511 - chestAutoSegmentation - INFO - start auto segment on series: CT
+2021-08-17 18:23:22,798 - BasePage.py - INFO - double click series:CT succeed !
+2021-08-17 18:23:27,799 - chestAutoSegmentation - INFO - switch to series: CT 
+2021-08-17 18:23:38,876 - BasePage.py - ERROR - click auto_segmentation_button error !
+2021-08-17 18:23:38,876 - BasePage.py - DEBUG - Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 113, in click
+    self.local(element_name, loc, num, flag).click()
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="tps-ant-space-item" style="margin-right: 1px;">...</div> is not clickable at point (468, 95). Other element would receive the click: <div class="mark"></div>
+  (Session info: chrome=92.0.4515.131)
+
+

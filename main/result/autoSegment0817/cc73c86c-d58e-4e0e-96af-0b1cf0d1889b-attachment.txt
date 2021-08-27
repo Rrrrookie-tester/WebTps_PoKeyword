@@ -1,0 +1,30 @@
+[32mINFO    [0m BasePage.py:BasePage.py:44 open http://10.8.77.100:10010 succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:62 max window succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send autotester01 to username_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send 10retsetotua to password_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click login_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send AT_AS_cavumPelvis to patient_name_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click search_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:181 double click select_patient succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click counter_button succeed !
+[32mINFO    [0m cavumPelvisAutoSegmentation:test_autosegmentation_cavumPelvis.py:34 open patient: AT_AS_cavumPelvis
+[32mINFO    [0m cavumPelvisAutoSegmentation:test_autosegmentation_cavumPelvis.py:46 start auto segment on series: CT2
+[32mINFO    [0m BasePage.py:BasePage.py:181 double click series:CT2 succeed !
+[32mINFO    [0m cavumPelvisAutoSegmentation:test_autosegmentation_cavumPelvis.py:49 switch to series: CT2 
+[31m[1mERROR   [0m BasePage.py:BasePage.py:116 click auto_segmentation_button error !
+[35mDEBUG   [0m BasePage.py:BasePage.py:117 Traceback (most recent call last):
+  File "C:\Users\zexin.xu\PycharmProjects\WebTps_PoKeyword\utils\BasePage.py", line 113, in click
+    self.local(element_name, loc, num, flag).click()
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "c:\users\zexin.xu\pycharmprojects\webtps_pokeyword\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="tps-ant-space-item" style="margin-right: 1px;">...</div> is not clickable at point (468, 95). Other element would receive the click: <div class="mark"></div>
+  (Session info: chrome=92.0.4515.131)
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FD378FA448>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6f77faf277e1f8ab33f17d4abccbe0ab
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FD3798F208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6f77faf277e1f8ab33f17d4abccbe0ab
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FD3798F188>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6f77faf277e1f8ab33f17d4abccbe0ab

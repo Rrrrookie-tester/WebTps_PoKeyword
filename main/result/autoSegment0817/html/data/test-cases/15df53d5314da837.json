@@ -1,0 +1,207 @@
+{
+  "uid" : "15df53d5314da837",
+  "name" : "test_chest_auto_segmentation[CT1]",
+  "fullName" : "main.test_case.test_autosegmentation_chest.TestAutoSegmentationChest#test_chest_auto_segmentation",
+  "historyId" : "949ac5daf7fa848b834c02aa097916d2",
+  "time" : {
+    "start" : 1629195851867,
+    "stop" : 1629195931851,
+    "duration" : 79984
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestAutoSegmentationChest",
+    "time" : {
+      "start" : 1629195825422,
+      "stop" : 1629195851867,
+      "duration" : 26445
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login WebTps",
+      "time" : {
+        "start" : 1629195827511,
+        "stop" : 1629195829665,
+        "duration" : 2154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "une",
+        "value" : "'autotester01'"
+      }, {
+        "name" : "pwd",
+        "value" : "'10retsetotua'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "open patient enter Counter page",
+      "time" : {
+        "start" : 1629195839666,
+        "stop" : 1629195841866,
+        "duration" : 2200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "patient_name",
+        "value" : "'AT_AS_Chest'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "switch series",
+      "time" : {
+        "start" : 1629195851868,
+        "stop" : 1629195857227,
+        "duration" : 5359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "series_name",
+        "value" : "'CT1'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "open auto segmentation page",
+      "time" : {
+        "start" : 1629195867228,
+        "stop" : 1629195868455,
+        "duration" : 1227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "autoSegment(Chest)",
+      "time" : {
+        "start" : 1629195868456,
+        "stop" : 1629195931850,
+        "duration" : 63394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "144e968b5db31e88",
+      "name" : "log",
+      "source" : "144e968b5db31e88.txt",
+      "type" : "text/plain",
+      "size" : 1652
+    }, {
+      "uid" : "fce8f7e3af752b84",
+      "name" : "stderr",
+      "source" : "fce8f7e3af752b84.txt",
+      "type" : "text/plain",
+      "size" : 1603
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestAutoSegmentationChest::0",
+    "time" : {
+      "start" : 1629195931852,
+      "stop" : 1629195934344,
+      "duration" : 2492
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "auto segment on chest series"
+  }, {
+    "name" : "feature",
+    "value" : "chest autoSegment"
+  }, {
+    "name" : "tag",
+    "value" : "autoSegment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_autosegmentation_chest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAutoSegmentationChest"
+  }, {
+    "name" : "host",
+    "value" : "D1301004126"
+  }, {
+    "name" : "thread",
+    "value" : "916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.test_case.test_autosegmentation_chest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "series_name",
+    "value" : "'CT1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "autoSegment" ]
+  },
+  "source" : "15df53d5314da837.json",
+  "parameterValues" : [ "'CT1'" ]
+}

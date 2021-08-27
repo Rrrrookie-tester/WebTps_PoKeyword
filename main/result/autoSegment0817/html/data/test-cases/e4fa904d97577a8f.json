@@ -1,0 +1,215 @@
+{
+  "uid" : "e4fa904d97577a8f",
+  "name" : "test_cavumPelvis_auto_segmentation[CT1]",
+  "fullName" : "main.test_case.test_autosegmentation_cavumPelvis.TestAutoSegmentationCavumPelvis#test_cavumPelvis_auto_segmentation",
+  "historyId" : "2a911d152f6fcd028836299e9c596f75",
+  "time" : {
+    "start" : 1629194322256,
+    "stop" : 1629194403470,
+    "duration" : 81214
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: None\nassert False",
+  "statusTrace" : "self = <main.test_case.test_autosegmentation_cavumPelvis.TestAutoSegmentationCavumPelvis object at 0x000001FD378BEFC8>, series_name = 'CT1'\n\n    @allure.story(\"auto segment on cavumPelvis series\")\n    # @pytest.mark.parametrize('series_name', ['CT'])\n    @pytest.mark.parametrize('series_name', ['CT', 'CT1', 'CT2', 'CT3', 'CT4', 'CT5', 'CT6', 'CT7', 'CT8', 'CT9', 'CT10',\n                                             'CT11', 'CT12', 'CT13', 'CT14'])\n    def test_cavumPelvis_auto_segmentation(self, series_name):\n        self.logger1.info(\"start auto segment on series: %s\" % series_name)\n        result = False\n        self.counter_page.switch_series(series_name)\n        self.logger1.info(\"switch to series: %s \" % series_name)\n        sleep(10)\n        autosegmentation_page = self.counter_page.enter_auto_segmentation()\n        self.logger1.info(\"open auto segmentation page\")\n        try:\n            result = autosegmentation_page.autosegment_cavumpelvis()\n        except:\n            self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\n>       assert result, self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\nE       AssertionError: None\nE       assert False\n\ntest_autosegmentation_cavumPelvis.py:57: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestAutoSegmentationCavumPelvis",
+    "time" : {
+      "start" : 1629194295867,
+      "stop" : 1629194322253,
+      "duration" : 26386
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login WebTps",
+      "time" : {
+        "start" : 1629194297993,
+        "stop" : 1629194300005,
+        "duration" : 2012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "une",
+        "value" : "'autotester01'"
+      }, {
+        "name" : "pwd",
+        "value" : "'10retsetotua'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "open patient enter Counter page",
+      "time" : {
+        "start" : 1629194310005,
+        "stop" : 1629194312252,
+        "duration" : 2247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "patient_name",
+        "value" : "'AT_AS_cavumPelvis'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: None\nassert False",
+    "statusTrace" : "self = <main.test_case.test_autosegmentation_cavumPelvis.TestAutoSegmentationCavumPelvis object at 0x000001FD378BEFC8>, series_name = 'CT1'\n\n    @allure.story(\"auto segment on cavumPelvis series\")\n    # @pytest.mark.parametrize('series_name', ['CT'])\n    @pytest.mark.parametrize('series_name', ['CT', 'CT1', 'CT2', 'CT3', 'CT4', 'CT5', 'CT6', 'CT7', 'CT8', 'CT9', 'CT10',\n                                             'CT11', 'CT12', 'CT13', 'CT14'])\n    def test_cavumPelvis_auto_segmentation(self, series_name):\n        self.logger1.info(\"start auto segment on series: %s\" % series_name)\n        result = False\n        self.counter_page.switch_series(series_name)\n        self.logger1.info(\"switch to series: %s \" % series_name)\n        sleep(10)\n        autosegmentation_page = self.counter_page.enter_auto_segmentation()\n        self.logger1.info(\"open auto segmentation page\")\n        try:\n            result = autosegmentation_page.autosegment_cavumpelvis()\n        except:\n            self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\n>       assert result, self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\nE       AssertionError: None\nE       assert False\n\ntest_autosegmentation_cavumPelvis.py:57: AssertionError",
+    "steps" : [ {
+      "name" : "switch series",
+      "time" : {
+        "start" : 1629194322257,
+        "stop" : 1629194327616,
+        "duration" : 5359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "series_name",
+        "value" : "'CT1'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "open auto segmentation page",
+      "time" : {
+        "start" : 1629194337617,
+        "stop" : 1629194338887,
+        "duration" : 1270
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "autoSegment(cavumPelvis)",
+      "time" : {
+        "start" : 1629194338887,
+        "stop" : 1629194403469,
+        "duration" : 64582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "7a83b261ec494eb1",
+      "name" : "log",
+      "source" : "7a83b261ec494eb1.txt",
+      "type" : "text/plain",
+      "size" : 2100
+    }, {
+      "uid" : "a14795020f977369",
+      "name" : "stderr",
+      "source" : "a14795020f977369.txt",
+      "type" : "text/plain",
+      "size" : 2004
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestAutoSegmentationCavumPelvis::0",
+    "time" : {
+      "start" : 1629194403474,
+      "stop" : 1629194405953,
+      "duration" : 2479
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "auto segment on cavumPelvis series"
+  }, {
+    "name" : "feature",
+    "value" : "cavumPelvis autoSegment"
+  }, {
+    "name" : "tag",
+    "value" : "autoSegment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_autosegmentation_cavumPelvis"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAutoSegmentationCavumPelvis"
+  }, {
+    "name" : "host",
+    "value" : "D1301004126"
+  }, {
+    "name" : "thread",
+    "value" : "916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.test_case.test_autosegmentation_cavumPelvis"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "series_name",
+    "value" : "'CT1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "autoSegment" ]
+  },
+  "source" : "e4fa904d97577a8f.json",
+  "parameterValues" : [ "'CT1'" ]
+}

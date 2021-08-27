@@ -1,0 +1,20 @@
+[32mINFO    [0m BasePage.py:BasePage.py:44 open http://10.8.77.100:10010 succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:62 max window succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send autotester01 to username_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send 10retsetotua to password_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click login_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send AT_AS_headNeck to patient_name_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click search_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:181 double click select_patient succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click counter_button succeed !
+[32mINFO    [0m headNeckAutoSegmentation:test_autosegmentation_headNeck.py:34 open patient: AT_AS_headNeck
+[32mINFO    [0m headNeckAutoSegmentation:test_autosegmentation_headNeck.py:47 start auto segment on series: CT6
+[32mINFO    [0m BasePage.py:BasePage.py:181 double click series:CT6 succeed !
+[32mINFO    [0m headNeckAutoSegmentation:test_autosegmentation_headNeck.py:50 switch to series: CT6 
+[32mINFO    [0m BasePage.py:BasePage.py:114 click auto_segmentation_button succeed !
+[32mINFO    [0m headNeckAutoSegmentation:test_autosegmentation_headNeck.py:53 open auto segmentation page
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click head_neck_button succeed !
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click all_select_button succeed !
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click move_button succeed !
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click submit_button succeed !
+[31m[1mERROR   [0m headNeckAutoSegmentation:test_autosegmentation_headNeck.py:61 series: CT6 auto segmentation failed !

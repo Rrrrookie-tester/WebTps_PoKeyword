@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Aug 18 10:04:48 CST 2021","Wed Aug 18 10:06:38 CST 2021","109936","main.test_case","test_autosegmentation_headNeck","TestAutoSegmentationChest","","","test_chest_auto_segmentation[CT1]",""
+"broken","Wed Aug 18 10:06:40 CST 2021","Wed Aug 18 10:06:40 CST 2021","0","main.test_case","test_autosegmentation_headNeck","TestAutoSegmentationChest","","","test_chest_auto_segmentation[CT5]",""
+"failed","Wed Aug 18 10:02:19 CST 2021","Wed Aug 18 10:04:09 CST 2021","109985","main.test_case","test_autosegmentation_headNeck","TestAutoSegmentationChest","","","test_chest_auto_segmentation[CT]",""

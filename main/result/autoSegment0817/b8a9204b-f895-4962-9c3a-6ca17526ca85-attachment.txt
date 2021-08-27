@@ -1,0 +1,23 @@
+2021-08-17 18:13:48,693 - BasePage.py - INFO - open http://10.8.77.100:10010 succeed !
+2021-08-17 18:13:49,149 - BasePage.py - INFO - max window succeed !
+2021-08-17 18:13:49,481 - BasePage.py - INFO - send autotester01 to username_input succeed !
+2021-08-17 18:13:49,611 - BasePage.py - INFO - send 10retsetotua to password_input succeed !
+2021-08-17 18:13:49,926 - BasePage.py - INFO - click login_button succeed !
+2021-08-17 18:14:00,098 - BasePage.py - INFO - send AT_AS_cavumPelvis to patient_name_input succeed !
+2021-08-17 18:14:00,163 - BasePage.py - INFO - click search_button succeed !
+2021-08-17 18:14:01,506 - BasePage.py - INFO - double click select_patient succeed !
+2021-08-17 18:14:02,220 - BasePage.py - INFO - click counter_button succeed !
+2021-08-17 18:14:02,220 - cavumPelvisAutoSegmentation - INFO - open patient: AT_AS_cavumPelvis 
+2021-08-17 18:14:12,222 - cavumPelvisAutoSegmentation - INFO - start auto segment on series: CT10
+2021-08-17 18:14:12,600 - BasePage.py - INFO - double click series:CT10 succeed !
+2021-08-17 18:14:17,602 - cavumPelvisAutoSegmentation - INFO - switch to series: CT10 
+2021-08-17 18:14:27,821 - BasePage.py - INFO - click auto_segmentation_button succeed !
+2021-08-17 18:14:28,821 - cavumPelvisAutoSegmentation - INFO - open auto segmentation page
+2021-08-17 18:14:28,893 - autoSegmentation.py - INFO - click cavumpelvis_button succeed !
+2021-08-17 18:14:29,964 - autoSegmentation.py - INFO - click all_select_button succeed !
+2021-08-17 18:14:30,033 - autoSegmentation.py - INFO - click move_button succeed !
+2021-08-17 18:14:32,089 - autoSegmentation.py - INFO - click other_button succeed !
+2021-08-17 18:14:33,120 - autoSegmentation.py - INFO - click all_select_button succeed !
+2021-08-17 18:14:33,190 - autoSegmentation.py - INFO - click move_button succeed !
+2021-08-17 18:14:33,284 - autoSegmentation.py - INFO - click submit_button succeed !
+2021-08-17 18:15:33,349 - cavumPelvisAutoSegmentation - ERROR - series: CT10 auto segmentation failed !

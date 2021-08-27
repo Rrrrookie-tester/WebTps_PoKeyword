@@ -1,0 +1,47 @@
+add_function_button:
+  # 添加函数按钮,序号为1
+  - css selector
+  - .tps-ant-btn-icon-only
+
+output_type_button:
+  # 输出方式按钮：0为输出为已有Roi,1为输出为新Roi
+  - css selector
+  - .tps-ant-radio-input
+
+selectbox_button:
+  # 下拉框:0列表下拉框；1计划角色下拉框；2生物角色下拉框；3功能类型；
+  # margin、mirror下：4感兴趣区域；5函数
+  # Combine下：4感兴趣区域；5函数;6感兴趣区域；7函数
+  - css selector
+  - .tps-ant-select-single
+
+selectitem_button:
+  # 下拉框选项
+  - xpath
+  - "//div[@title='"
+  - "']"
+
+create_ring_checkbox:
+  # 创建环勾选框
+  - id
+  - margin_modal_isCreateRing
+
+ring_size_inputbox:
+  # 环大小输入框
+  - id
+  - margin_modal_ringSize
+
+margin_input_box:
+  # 外扩/内缩尺寸
+  - id
+  - 'margin_modal_marginRight'
+
+submit_button:
+  # 确定按钮;1为函数窗口确定按钮，3为功能窗口添加按钮
+  - css selector
+  - .tps-ant-btn-primary
+
+close_modal_button:
+  # 关闭窗口按钮
+  - css selector
+  - .tps-ant-modal-close-x

@@ -1,0 +1,23 @@
+target_lab:
+  # ‘靶区’标签页
+  - xpath
+  - //*[@id="beamAperture_conformBeamType"]/div[1]/div[1]/div/div[2]
+box_field_lab:
+  # ‘盒型野’标签页
+  - xpath
+  - //*[@id="beamAperture_conformBeamType"]/div[1]/div[1]/div/div[1]
+target_select:
+  # '靶区'下拉框
+  - id
+  - beamAperture_targetRoiPropertiesId
+target_item:
+  - xpath
+  - '//div[@title="'
+  - '"]'
+avoid_select:
+  # '避开'下拉框
+  - id
+  - beamAperture_avoidRoiPropertiesId
+conformal_submit:
+  - css selector
+  - .tps-ant-modal-footer > .tps-ant-btn-primary

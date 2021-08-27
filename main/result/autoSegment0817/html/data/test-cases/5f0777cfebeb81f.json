@@ -1,0 +1,215 @@
+{
+  "uid" : "5f0777cfebeb81f",
+  "name" : "test_chest_auto_segmentation[CT2]",
+  "fullName" : "main.test_case.test_autosegmentation_chest.TestAutoSegmentationChest#test_chest_auto_segmentation",
+  "historyId" : "e3a15e068e033a4e4cdc9c570fe48e5b",
+  "time" : {
+    "start" : 1629195960735,
+    "stop" : 1629196040655,
+    "duration" : 79920
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: None\nassert False",
+  "statusTrace" : "self = <main.test_case.test_autosegmentation_chest.TestAutoSegmentationChest object at 0x000001FD374D7288>, series_name = 'CT2'\n\n    @allure.story(\"auto segment on chest series\")\n    # @pytest.mark.parametrize('series_name', ['CT'])\n    @pytest.mark.parametrize('series_name', ['CT', 'CT1', 'CT2', 'CT3', 'CT4', 'CT5', 'CT6', 'CT7', 'CT8', 'CT9', 'CT10',\n                                             'CT11', 'CT12', 'CT13', 'CT14'])\n    def test_chest_auto_segmentation(self, series_name):\n    \n        self.logger1.info(\"start auto segment on series: %s\" % series_name)\n        result = False\n        self.counter_page.switch_series(series_name)\n        self.logger1.info(\"switch to series: %s \" % series_name)\n        sleep(10)\n        autosegmentation_page = self.counter_page.enter_auto_segmentation()\n        self.logger1.info(\"open auto segmentation page\")\n        # try:\n        #     result = autosegmentation_page.autosegment_chest()\n        # except:\n        #     self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\n        result = autosegmentation_page.autosegment_chest()\n>       assert result, self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\nE       AssertionError: None\nE       assert False\n\ntest_autosegmentation_chest.py:60: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestAutoSegmentationChest",
+    "time" : {
+      "start" : 1629195934350,
+      "stop" : 1629195960735,
+      "duration" : 26385
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login WebTps",
+      "time" : {
+        "start" : 1629195936413,
+        "stop" : 1629195938510,
+        "duration" : 2097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "une",
+        "value" : "'autotester01'"
+      }, {
+        "name" : "pwd",
+        "value" : "'10retsetotua'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "open patient enter Counter page",
+      "time" : {
+        "start" : 1629195948510,
+        "stop" : 1629195950734,
+        "duration" : 2224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "patient_name",
+        "value" : "'AT_AS_Chest'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: None\nassert False",
+    "statusTrace" : "self = <main.test_case.test_autosegmentation_chest.TestAutoSegmentationChest object at 0x000001FD374D7288>, series_name = 'CT2'\n\n    @allure.story(\"auto segment on chest series\")\n    # @pytest.mark.parametrize('series_name', ['CT'])\n    @pytest.mark.parametrize('series_name', ['CT', 'CT1', 'CT2', 'CT3', 'CT4', 'CT5', 'CT6', 'CT7', 'CT8', 'CT9', 'CT10',\n                                             'CT11', 'CT12', 'CT13', 'CT14'])\n    def test_chest_auto_segmentation(self, series_name):\n    \n        self.logger1.info(\"start auto segment on series: %s\" % series_name)\n        result = False\n        self.counter_page.switch_series(series_name)\n        self.logger1.info(\"switch to series: %s \" % series_name)\n        sleep(10)\n        autosegmentation_page = self.counter_page.enter_auto_segmentation()\n        self.logger1.info(\"open auto segmentation page\")\n        # try:\n        #     result = autosegmentation_page.autosegment_chest()\n        # except:\n        #     self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\n        result = autosegmentation_page.autosegment_chest()\n>       assert result, self.logger1.error(\"series: %s auto segmentation failed !\" % series_name)\nE       AssertionError: None\nE       assert False\n\ntest_autosegmentation_chest.py:60: AssertionError",
+    "steps" : [ {
+      "name" : "switch series",
+      "time" : {
+        "start" : 1629195960736,
+        "stop" : 1629195966041,
+        "duration" : 5305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "series_name",
+        "value" : "'CT2'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "open auto segmentation page",
+      "time" : {
+        "start" : 1629195976041,
+        "stop" : 1629195977259,
+        "duration" : 1218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "autoSegment(Chest)",
+      "time" : {
+        "start" : 1629195977260,
+        "stop" : 1629196040655,
+        "duration" : 63395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a9c41883b8c14286",
+      "name" : "log",
+      "source" : "a9c41883b8c14286.txt",
+      "type" : "text/plain",
+      "size" : 1769
+    }, {
+      "uid" : "c1d4a9b1c27024f8",
+      "name" : "stderr",
+      "source" : "c1d4a9b1c27024f8.txt",
+      "type" : "text/plain",
+      "size" : 1700
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestAutoSegmentationChest::0",
+    "time" : {
+      "start" : 1629196040660,
+      "stop" : 1629196043181,
+      "duration" : 2521
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "auto segment on chest series"
+  }, {
+    "name" : "feature",
+    "value" : "chest autoSegment"
+  }, {
+    "name" : "tag",
+    "value" : "autoSegment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_autosegmentation_chest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAutoSegmentationChest"
+  }, {
+    "name" : "host",
+    "value" : "D1301004126"
+  }, {
+    "name" : "thread",
+    "value" : "916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.test_case.test_autosegmentation_chest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "series_name",
+    "value" : "'CT2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "autoSegment" ]
+  },
+  "source" : "5f0777cfebeb81f.json",
+  "parameterValues" : [ "'CT2'" ]
+}

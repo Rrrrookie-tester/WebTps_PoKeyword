@@ -1,0 +1,55 @@
+INFO     TestRegistration:test_registration.py:38 user: xzx login 
+INFO     BasePage.py:BasePage.py:43 open http://10.8.77.100:10010/emr/data-center succeed !
+INFO     BasePage.py:BasePage.py:61 max window succeed !
+INFO     BasePage.py:BasePage.py:154 send xzx to username_input succeed !
+INFO     BasePage.py:BasePage.py:154 send 111111 to password_input succeed !
+INFO     BasePage.py:BasePage.py:113 click login_button succeed !
+INFO     TestRegistration:test_registration.py:49 open patient: (AT)registration_noraml 
+INFO     BasePage.py:BasePage.py:154 send (AT)registration_noraml to patient_name_input succeed !
+INFO     BasePage.py:BasePage.py:113 click search_button succeed !
+INFO     BasePage.py:BasePage.py:164 double click select_patient succeed !
+INFO     BasePage.py:BasePage.py:113 click counter_button succeed !
+INFO     TestRegistration:test_registration.py:52 switch to registration page
+INFO     BasePage.py:BasePage.py:113 click registration_module_button succeed !
+INFO     TestRegistration:test_registration.py:67 add rigid registration,fixed_ct:CT;float_ct:CT1
+INFO     BasePage.py:BasePage.py:164 double click fixed_ct: CT succeed !
+INFO     BasePage.py:BasePage.py:207 right click float_ct: CT1 succeed !
+INFO     BasePage.py:BasePage.py:113 click add_rigid_button succeed !
+INFO     BasePage.py:BasePage.py:113 click rigid_saveAs_button succeed !
+INFO     BasePage.py:BasePage.py:145 send Rigid_CT_CT1 to registration_name_input succeed !
+INFO     BasePage.py:BasePage.py:113 click submit_button succeed !
+INFO     TestRegistration:test_registration.py:67 add rigid registration,fixed_ct:CT;float_ct:CT2
+INFO     BasePage.py:BasePage.py:164 double click fixed_ct: CT succeed !
+INFO     BasePage.py:BasePage.py:207 right click float_ct: CT2 succeed !
+INFO     BasePage.py:BasePage.py:113 click add_rigid_button succeed !
+INFO     BasePage.py:BasePage.py:113 click rigid_saveAs_button succeed !
+INFO     BasePage.py:BasePage.py:145 send Rigid_CT_CT2 to registration_name_input succeed !
+INFO     BasePage.py:BasePage.py:113 click submit_button succeed !
+INFO     TestRegistration:test_registration.py:67 add rigid registration,fixed_ct:CT1;float_ct:CT
+INFO     BasePage.py:BasePage.py:164 double click fixed_ct: CT1 succeed !
+INFO     BasePage.py:BasePage.py:207 right click float_ct: CT succeed !
+INFO     BasePage.py:BasePage.py:113 click add_rigid_button succeed !
+INFO     BasePage.py:BasePage.py:113 click rigid_saveAs_button succeed !
+INFO     BasePage.py:BasePage.py:145 send Rigid_CT1_CT to registration_name_input succeed !
+INFO     BasePage.py:BasePage.py:113 click submit_button succeed !
+INFO     TestRegistration:test_registration.py:67 add rigid registration,fixed_ct:CT1;float_ct:CT2
+INFO     BasePage.py:BasePage.py:164 double click fixed_ct: CT1 succeed !
+INFO     BasePage.py:BasePage.py:207 right click float_ct: CT2 succeed !
+INFO     BasePage.py:BasePage.py:113 click add_rigid_button succeed !
+INFO     BasePage.py:BasePage.py:113 click rigid_saveAs_button succeed !
+INFO     BasePage.py:BasePage.py:145 send Rigid_CT1_CT2 to registration_name_input succeed !
+INFO     BasePage.py:BasePage.py:113 click submit_button succeed !
+INFO     TestRegistration:test_registration.py:67 add rigid registration,fixed_ct:CT2;float_ct:CT
+INFO     BasePage.py:BasePage.py:164 double click fixed_ct: CT2 succeed !
+INFO     BasePage.py:BasePage.py:207 right click float_ct: CT succeed !
+INFO     BasePage.py:BasePage.py:113 click add_rigid_button succeed !
+INFO     BasePage.py:BasePage.py:113 click rigid_saveAs_button succeed !
+INFO     BasePage.py:BasePage.py:145 send Rigid_CT2_CT to registration_name_input succeed !
+INFO     BasePage.py:BasePage.py:113 click submit_button succeed !
+INFO     TestRegistration:test_registration.py:67 add rigid registration,fixed_ct:CT2;float_ct:CT1
+INFO     BasePage.py:BasePage.py:164 double click fixed_ct: CT2 succeed !
+INFO     BasePage.py:BasePage.py:207 right click float_ct: CT1 succeed !
+INFO     BasePage.py:BasePage.py:113 click add_rigid_button succeed !
+INFO     BasePage.py:BasePage.py:113 click rigid_saveAs_button succeed !
+INFO     BasePage.py:BasePage.py:145 send Rigid_CT2_CT1 to registration_name_input succeed !
+INFO     BasePage.py:BasePage.py:113 click submit_button succeed !

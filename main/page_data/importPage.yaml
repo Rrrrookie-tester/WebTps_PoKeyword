@@ -1,0 +1,33 @@
+data_source_select:
+  # 数据源下拉框,序号0
+  - xpath
+  - '//span[@title="服务器"]'
+open_folder_button:
+  # 打开文件夹按钮
+  - css selector
+  - .anticon-folder-open
+upload_input:
+  - id
+  - upLoadFiles
+series_checkbox:
+  # 序列勾选框
+  - css selector
+  - .home-ant-checkbox
+submit_button:
+  # 导入按钮
+  - css selector
+  - .home-ant-btn-primary
+accept_button:
+  - css selector
+  - .home-ant-btn
+confirm_button:
+  # 检查四要素页面确定按钮
+  - css selector
+  - .home-ant-modal-footer > .home-ant-btn-primary
+import_loading:
+  # 导入序列时蒙层
+  - css selector
+  - .home-ant-spin-text
+back_PA_button:
+  - css selector
+  - .antd-pro-components-product-header-index-container

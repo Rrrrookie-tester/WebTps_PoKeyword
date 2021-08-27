@@ -1,0 +1,19 @@
+2021-08-17 18:37:20,670 - BasePage.py - INFO - open http://10.8.77.100:10010 succeed !
+2021-08-17 18:37:21,060 - BasePage.py - INFO - max window succeed !
+2021-08-17 18:37:21,181 - BasePage.py - INFO - send autotester01 to username_input succeed !
+2021-08-17 18:37:21,310 - BasePage.py - INFO - send 10retsetotua to password_input succeed !
+2021-08-17 18:37:21,830 - BasePage.py - INFO - click login_button succeed !
+2021-08-17 18:37:31,989 - BasePage.py - INFO - send AT_AS_Chest to patient_name_input succeed !
+2021-08-17 18:37:32,054 - BasePage.py - INFO - click search_button succeed !
+2021-08-17 18:37:33,392 - BasePage.py - INFO - double click select_patient succeed !
+2021-08-17 18:37:34,061 - BasePage.py - INFO - click counter_button succeed !
+2021-08-17 18:37:34,063 - chestAutoSegmentation - INFO - open patient: AT_AS_Chest 
+2021-08-17 18:37:44,065 - chestAutoSegmentation - INFO - start auto segment on series: CT9
+2021-08-17 18:37:44,409 - BasePage.py - INFO - double click series:CT9 succeed !
+2021-08-17 18:37:49,409 - chestAutoSegmentation - INFO - switch to series: CT9 
+2021-08-17 18:37:59,643 - BasePage.py - INFO - click auto_segmentation_button succeed !
+2021-08-17 18:38:00,644 - chestAutoSegmentation - INFO - open auto segmentation page
+2021-08-17 18:38:00,725 - autoSegmentation.py - INFO - click chest_button succeed !
+2021-08-17 18:38:01,784 - autoSegmentation.py - INFO - click all_select_button succeed !
+2021-08-17 18:38:01,868 - autoSegmentation.py - INFO - click move_button succeed !
+2021-08-17 18:38:03,966 - autoSegmentation.py - INFO - click submit_button succeed !

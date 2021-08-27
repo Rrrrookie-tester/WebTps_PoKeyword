@@ -1,0 +1,441 @@
+[ {
+  "uid" : "bb1a5ab9cb1779c5",
+  "name" : "test_chest_auto_segmentation[CT9]",
+  "time" : {
+    "start" : 1629196664065,
+    "stop" : 1629196744042,
+    "duration" : 79977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eb784cd1d73f3f8",
+  "name" : "test_cavumPelvis_auto_segmentation[CT6]",
+  "time" : {
+    "start" : 1629194811660,
+    "stop" : 1629194892787,
+    "duration" : 81127
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "468afab41cdd0764",
+  "name" : "test_cavumPelvis_auto_segmentation[CT10]",
+  "time" : {
+    "start" : 1629195252221,
+    "stop" : 1629195333351,
+    "duration" : 81130
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4e814ea7d706940",
+  "name" : "test_chest_auto_segmentation[CT13]",
+  "time" : {
+    "start" : 1629197099468,
+    "stop" : 1629197179513,
+    "duration" : 80045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f0777cfebeb81f",
+  "name" : "test_chest_auto_segmentation[CT2]",
+  "time" : {
+    "start" : 1629195960735,
+    "stop" : 1629196040655,
+    "duration" : 79920
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c436d08ef2e09c7d",
+  "name" : "test_cavumPelvis_auto_segmentation[CT3]",
+  "time" : {
+    "start" : 1629194481781,
+    "stop" : 1629194562920,
+    "duration" : 81139
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3163549c49891bed",
+  "name" : "test_chest_auto_segmentation[CT2]",
+  "time" : {
+    "start" : 1629197655138,
+    "stop" : 1629197795042,
+    "duration" : 139904
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "22964feed1b6b847",
+  "name" : "test_chest_auto_segmentation[CT6]",
+  "time" : {
+    "start" : 1629198331008,
+    "stop" : 1629198470945,
+    "duration" : 139937
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "80157bbfc0458334",
+  "name" : "test_chest_auto_segmentation[CT10]",
+  "time" : {
+    "start" : 1629198838234,
+    "stop" : 1629198978163,
+    "duration" : 139929
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc9b8c5639e24557",
+  "name" : "test_chest_auto_segmentation[CT14]",
+  "time" : {
+    "start" : 1629197208494,
+    "stop" : 1629197288542,
+    "duration" : 80048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1cbc392756aaf0",
+  "name" : "test_chest_auto_segmentation[CT]",
+  "time" : {
+    "start" : 1629195802512,
+    "stop" : 1629195821341,
+    "duration" : 18829
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "195c77125dc866b7",
+  "name" : "test_chest_auto_segmentation[CT5]",
+  "time" : {
+    "start" : 1629198161987,
+    "stop" : 1629198301907,
+    "duration" : 139920
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb529b2e49fcbd1f",
+  "name" : "test_chest_auto_segmentation[CT8]",
+  "time" : {
+    "start" : 1629196614691,
+    "stop" : 1629196633484,
+    "duration" : 18793
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "15df53d5314da837",
+  "name" : "test_chest_auto_segmentation[CT1]",
+  "time" : {
+    "start" : 1629195851867,
+    "stop" : 1629195931851,
+    "duration" : 79984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fbb4e774494d2e",
+  "name" : "test_cavumPelvis_auto_segmentation[CT5]",
+  "time" : {
+    "start" : 1629194701376,
+    "stop" : 1629194782510,
+    "duration" : 81134
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "66a595089655027b",
+  "name" : "test_chest_auto_segmentation[CT11]",
+  "time" : {
+    "start" : 1629196881777,
+    "stop" : 1629196961776,
+    "duration" : 79999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a4191fcf38474f0",
+  "name" : "test_chest_auto_segmentation[CT4]",
+  "time" : {
+    "start" : 1629197993112,
+    "stop" : 1629198132997,
+    "duration" : 139885
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4970eb14bdfb4ae",
+  "name" : "test_cavumPelvis_auto_segmentation[CT7]",
+  "time" : {
+    "start" : 1629194921698,
+    "stop" : 1629195002886,
+    "duration" : 81188
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "491dbfc205082824",
+  "name" : "test_chest_auto_segmentation[CT10]",
+  "time" : {
+    "start" : 1629196773040,
+    "stop" : 1629196853012,
+    "duration" : 79972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9b117f71fb7fdc",
+  "name" : "test_chest_auto_segmentation[CT]",
+  "time" : {
+    "start" : 1629197317480,
+    "stop" : 1629197457440,
+    "duration" : 139960
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "95c3ec6c1525ec33",
+  "name" : "test_cavumPelvis_auto_segmentation[CT]",
+  "time" : {
+    "start" : 1629194212087,
+    "stop" : 1629194293213,
+    "duration" : 81126
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d0774808fe75d71",
+  "name" : "test_chest_auto_segmentation[CT4]",
+  "time" : {
+    "start" : 1629196178863,
+    "stop" : 1629196258863,
+    "duration" : 80000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0a14a26ebe747c8",
+  "name" : "test_cavumPelvis_auto_segmentation[CT4]",
+  "time" : {
+    "start" : 1629194591715,
+    "stop" : 1629194672840,
+    "duration" : 81125
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "62f9d5de4db03bdb",
+  "name" : "test_chest_auto_segmentation[CT12]",
+  "time" : {
+    "start" : 1629196990712,
+    "stop" : 1629197070687,
+    "duration" : 79975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d223c0f37e5c107",
+  "name" : "test_chest_auto_segmentation[CT14]",
+  "time" : {
+    "start" : 1629199513509,
+    "stop" : 1629199653454,
+    "duration" : 139945
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "da3cac051150c502",
+  "name" : "test_cavumPelvis_auto_segmentation[CT14]",
+  "time" : {
+    "start" : 1629195692557,
+    "stop" : 1629195773646,
+    "duration" : 81089
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2a9de6e0cbb0a46",
+  "name" : "test_cavumPelvis_auto_segmentation[CT8]",
+  "time" : {
+    "start" : 1629195031730,
+    "stop" : 1629195112899,
+    "duration" : 81169
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "84cd1ea02ef27155",
+  "name" : "test_chest_auto_segmentation[CT13]",
+  "time" : {
+    "start" : 1629199344414,
+    "stop" : 1629199484376,
+    "duration" : 139962
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df4065e2372d11b",
+  "name" : "test_chest_auto_segmentation[CT3]",
+  "time" : {
+    "start" : 1629197824139,
+    "stop" : 1629197964065,
+    "duration" : 139926
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e8058e202ed7f1c",
+  "name" : "test_chest_auto_segmentation[CT5]",
+  "time" : {
+    "start" : 1629196287843,
+    "stop" : 1629196367867,
+    "duration" : 80024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "242b989d084cd84c",
+  "name" : "test_chest_auto_segmentation[CT3]",
+  "time" : {
+    "start" : 1629196069633,
+    "stop" : 1629196149615,
+    "duration" : 79982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcfd2b2f07f0e21a",
+  "name" : "test_chest_auto_segmentation[CT12]",
+  "time" : {
+    "start" : 1629199175545,
+    "stop" : 1629199315480,
+    "duration" : 139935
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "99acdbd66bc72b18",
+  "name" : "test_chest_auto_segmentation[CT7]",
+  "time" : {
+    "start" : 1629196505943,
+    "stop" : 1629196585909,
+    "duration" : 79966
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "452307628f8901d9",
+  "name" : "test_chest_auto_segmentation[CT7]",
+  "time" : {
+    "start" : 1629198500124,
+    "stop" : 1629198640039,
+    "duration" : 139915
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a2285686b88a02",
+  "name" : "test_cavumPelvis_auto_segmentation[CT12]",
+  "time" : {
+    "start" : 1629195472343,
+    "stop" : 1629195553423,
+    "duration" : 81080
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6dff08a913ce85f",
+  "name" : "test_cavumPelvis_auto_segmentation[CT11]",
+  "time" : {
+    "start" : 1629195362343,
+    "stop" : 1629195443479,
+    "duration" : 81136
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "279895c5db9aa3e7",
+  "name" : "test_cavumPelvis_auto_segmentation[CT2]",
+  "time" : {
+    "start" : 1629194432709,
+    "stop" : 1629194451508,
+    "duration" : 18799
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "844ecdcb23904f58",
+  "name" : "test_cavumPelvis_auto_segmentation[CT9]",
+  "time" : {
+    "start" : 1629195141892,
+    "stop" : 1629195223075,
+    "duration" : 81183
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8a4fc57d8dfb99c",
+  "name" : "test_cavumPelvis_auto_segmentation[CT13]",
+  "time" : {
+    "start" : 1629195582140,
+    "stop" : 1629195663311,
+    "duration" : 81171
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cc0771d712b09b3",
+  "name" : "test_chest_auto_segmentation[CT9]",
+  "time" : {
+    "start" : 1629198669046,
+    "stop" : 1629198808954,
+    "duration" : 139908
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7ed52c1815cbb2b",
+  "name" : "test_chest_auto_segmentation[CT1]",
+  "time" : {
+    "start" : 1629197486463,
+    "stop" : 1629197626404,
+    "duration" : 139941
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4fa904d97577a8f",
+  "name" : "test_cavumPelvis_auto_segmentation[CT1]",
+  "time" : {
+    "start" : 1629194322256,
+    "stop" : 1629194403470,
+    "duration" : 81214
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4ff649309d7ee21",
+  "name" : "test_chest_auto_segmentation[CT11]",
+  "time" : {
+    "start" : 1629199006845,
+    "stop" : 1629199146742,
+    "duration" : 139897
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f8925b43eae58f",
+  "name" : "test_chest_auto_segmentation[CT6]",
+  "time" : {
+    "start" : 1629196396904,
+    "stop" : 1629196476887,
+    "duration" : 79983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "D1301004126",
+    "children" : [ {
+      "name" : "14224-MainThread",
+      "children" : [ {
+        "name" : "test_registration[registration_config0]",
+        "uid" : "63908d890822124a",
+        "parentUid" : "ea4f64cdd6f5f15c83aff8111105e8ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628733050202,
+          "stop" : 1628733444364,
+          "duration" : 394162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['(AT)registration_noraml', '\\\\\\\\dataserver03\\\\rt\\\\00_RT_Public\\\\zexin\\\\DICOM\\\\SHCA\\\\LUNG\\\\XIAOXING GUO$_RT025570\\\\20190829_1.2.840.113704.1.111.2052.1567059994.1_2', '3']" ]
+      } ],
+      "uid" : "ea4f64cdd6f5f15c83aff8111105e8ff"
+    } ],
+    "uid" : "6d33aae7420579a46d877d5bee1975aa"
+  } ]
+}

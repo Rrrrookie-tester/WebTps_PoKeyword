@@ -1,0 +1,20 @@
+2021-08-17 18:34:42,525 - BasePage.py - INFO - open http://10.8.77.100:10010 succeed !
+2021-08-17 18:34:42,958 - BasePage.py - INFO - max window succeed !
+2021-08-17 18:34:43,111 - BasePage.py - INFO - send autotester01 to username_input succeed !
+2021-08-17 18:34:43,253 - BasePage.py - INFO - send 10retsetotua to password_input succeed !
+2021-08-17 18:34:43,673 - BasePage.py - INFO - click login_button succeed !
+2021-08-17 18:34:53,836 - BasePage.py - INFO - send AT_AS_Chest to patient_name_input succeed !
+2021-08-17 18:34:53,902 - BasePage.py - INFO - click search_button succeed !
+2021-08-17 18:34:55,238 - BasePage.py - INFO - double click select_patient succeed !
+2021-08-17 18:34:55,940 - BasePage.py - INFO - click counter_button succeed !
+2021-08-17 18:34:55,940 - chestAutoSegmentation - INFO - open patient: AT_AS_Chest 
+2021-08-17 18:35:05,942 - chestAutoSegmentation - INFO - start auto segment on series: CT7
+2021-08-17 18:35:06,309 - BasePage.py - INFO - double click series:CT7 succeed !
+2021-08-17 18:35:11,310 - chestAutoSegmentation - INFO - switch to series: CT7 
+2021-08-17 18:35:21,538 - BasePage.py - INFO - click auto_segmentation_button succeed !
+2021-08-17 18:35:22,538 - chestAutoSegmentation - INFO - open auto segmentation page
+2021-08-17 18:35:22,608 - autoSegmentation.py - INFO - click chest_button succeed !
+2021-08-17 18:35:23,668 - autoSegmentation.py - INFO - click all_select_button succeed !
+2021-08-17 18:35:23,744 - autoSegmentation.py - INFO - click move_button succeed !
+2021-08-17 18:35:25,855 - autoSegmentation.py - INFO - click submit_button succeed !
+2021-08-17 18:36:25,908 - chestAutoSegmentation - ERROR - series: CT7 auto segmentation failed !

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1f7b92c62b4bb1cc",
+  "name" : "test_chest_auto_segmentation[CT1]",
+  "time" : {
+    "start" : 1629252288487,
+    "stop" : 1629252398423,
+    "duration" : 109936
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d6c91c08f503e5",
+  "name" : "test_chest_auto_segmentation[CT5]",
+  "time" : {
+    "start" : 1629252400760,
+    "stop" : 1629252400760,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "93a8d0abed532488",
+  "name" : "test_chest_auto_segmentation[CT]",
+  "time" : {
+    "start" : 1629252139619,
+    "stop" : 1629252249604,
+    "duration" : 109985
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

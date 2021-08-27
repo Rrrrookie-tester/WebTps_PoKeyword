@@ -1,0 +1,20 @@
+2021-08-17 18:51:03,004 - BasePage.py - INFO - open http://10.8.77.100:10010 succeed !
+2021-08-17 18:51:03,425 - BasePage.py - INFO - max window succeed !
+2021-08-17 18:51:03,555 - BasePage.py - INFO - send autotester01 to username_input succeed !
+2021-08-17 18:51:03,675 - BasePage.py - INFO - send 10retsetotua to password_input succeed !
+2021-08-17 18:51:04,137 - BasePage.py - INFO - click login_button succeed !
+2021-08-17 18:51:14,325 - BasePage.py - INFO - send AT_AS_headNeck to patient_name_input succeed !
+2021-08-17 18:51:14,391 - BasePage.py - INFO - click search_button succeed !
+2021-08-17 18:51:15,734 - BasePage.py - INFO - double click select_patient succeed !
+2021-08-17 18:51:16,460 - BasePage.py - INFO - click counter_button succeed !
+2021-08-17 18:51:16,460 - headNeckAutoSegmentation - INFO - open patient: AT_AS_headNeck 
+2021-08-17 18:51:26,464 - headNeckAutoSegmentation - INFO - start auto segment on series: CT1
+2021-08-17 18:51:26,750 - BasePage.py - INFO - double click series:CT1 succeed !
+2021-08-17 18:51:31,751 - headNeckAutoSegmentation - INFO - switch to series: CT1 
+2021-08-17 18:51:41,971 - BasePage.py - INFO - click auto_segmentation_button succeed !
+2021-08-17 18:51:42,972 - headNeckAutoSegmentation - INFO - open auto segmentation page
+2021-08-17 18:51:43,063 - autoSegmentation.py - INFO - click head_neck_button succeed !
+2021-08-17 18:51:44,123 - autoSegmentation.py - INFO - click all_select_button succeed !
+2021-08-17 18:51:44,221 - autoSegmentation.py - INFO - click move_button succeed !
+2021-08-17 18:51:46,350 - autoSegmentation.py - INFO - click submit_button succeed !
+2021-08-17 18:53:46,402 - headNeckAutoSegmentation - ERROR - series: CT1 auto segmentation failed !

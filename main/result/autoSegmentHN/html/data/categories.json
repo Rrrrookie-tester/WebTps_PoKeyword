@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: None\nassert False",
+      "children" : [ {
+        "name" : "test_chest_auto_segmentation[CT]",
+        "uid" : "93a8d0abed532488",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629252139619,
+          "stop" : 1629252249604,
+          "duration" : 109985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT'" ]
+      }, {
+        "name" : "test_chest_auto_segmentation[CT1]",
+        "uid" : "1f7b92c62b4bb1cc",
+        "parentUid" : "898285d9634b81988f65a722ff50018f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629252288487,
+          "stop" : 1629252398423,
+          "duration" : 109936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT1'" ]
+      } ],
+      "uid" : "898285d9634b81988f65a722ff50018f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "SystemExit: None",
+      "children" : [ {
+        "name" : "test_chest_auto_segmentation[CT5]",
+        "uid" : "b2d6c91c08f503e5",
+        "parentUid" : "7bf65cc509c17fbc385bc37b1c70ea38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629252400760,
+          "stop" : 1629252400760,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CT5'" ]
+      } ],
+      "uid" : "7bf65cc509c17fbc385bc37b1c70ea38"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

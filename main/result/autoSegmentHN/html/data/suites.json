@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "main.test_case",
+    "children" : [ {
+      "name" : "test_autosegmentation_headNeck",
+      "children" : [ {
+        "name" : "TestAutoSegmentationChest",
+        "children" : [ {
+          "name" : "test_chest_auto_segmentation[CT]",
+          "uid" : "93a8d0abed532488",
+          "parentUid" : "7f7cd1e803da8ad329079ec41efbc592",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629252139619,
+            "stop" : 1629252249604,
+            "duration" : 109985
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'CT'" ]
+        }, {
+          "name" : "test_chest_auto_segmentation[CT1]",
+          "uid" : "1f7b92c62b4bb1cc",
+          "parentUid" : "7f7cd1e803da8ad329079ec41efbc592",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629252288487,
+            "stop" : 1629252398423,
+            "duration" : 109936
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'CT1'" ]
+        }, {
+          "name" : "test_chest_auto_segmentation[CT5]",
+          "uid" : "b2d6c91c08f503e5",
+          "parentUid" : "7f7cd1e803da8ad329079ec41efbc592",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629252400760,
+            "stop" : 1629252400760,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'CT5'" ]
+        } ],
+        "uid" : "7f7cd1e803da8ad329079ec41efbc592"
+      } ],
+      "uid" : "7737da69984b52f2772c6d6b9e0c6a89"
+    } ],
+    "uid" : "1b7e748962fef4ef022bbfe3bca4e8f6"
+  } ]
+}

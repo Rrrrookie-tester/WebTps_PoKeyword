@@ -1,0 +1,19 @@
+[32mINFO    [0m BasePage.py:BasePage.py:44 open http://10.8.77.100:10010 succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:62 max window succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send autotester01 to username_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send 10retsetotua to password_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click login_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:171 send AT_AS_Chest to patient_name_input succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click search_button succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:181 double click select_patient succeed !
+[32mINFO    [0m BasePage.py:BasePage.py:114 click counter_button succeed !
+[32mINFO    [0m chestAutoSegmentation:test_autosegmentation_chest.py:35 open patient: AT_AS_Chest
+[32mINFO    [0m chestAutoSegmentation:test_autosegmentation_chest.py:48 start auto segment on series: CT5
+[32mINFO    [0m BasePage.py:BasePage.py:181 double click series:CT5 succeed !
+[32mINFO    [0m chestAutoSegmentation:test_autosegmentation_chest.py:51 switch to series: CT5 
+[32mINFO    [0m BasePage.py:BasePage.py:114 click auto_segmentation_button succeed !
+[32mINFO    [0m chestAutoSegmentation:test_autosegmentation_chest.py:54 open auto segmentation page
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click chest_button succeed !
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click all_select_button succeed !
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click move_button succeed !
+[32mINFO    [0m autoSegmentation.py:BasePage.py:114 click submit_button succeed !

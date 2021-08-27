@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","chest autoSegment","auto segment on chest series","2","2","11","0","0"
+"","cavumPelvis autoSegment","auto segment on cavumPelvis series","14","1","0","0","0"
+"","HeadNeck autoSegment","auto segment on HeadNeck series","14","0","0","0","0"
