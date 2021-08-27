@@ -9,6 +9,7 @@ import traceback
 from time import sleep
 
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -30,7 +31,7 @@ class BasePage:
     def __init__(self, driver):
         #config_data = ReadYaml("data\\config.yaml")
         #self.base_url = config_data['base_url']
-        self.base_url = "http://10.8.77.100:10010/emr/data-center"
+        self.base_url = "http://10.8.77.100:10010"
         # self.base_url = "http://10.8.77.98:10010/emr/data-center"
         self.driver = driver
         self.timeout = 30
@@ -116,6 +117,22 @@ class BasePage:
             self.logger.debug(traceback.format_exc())
             self.quit()
 
+    def find_parent(self, element):
+        try:
+            return element.find_element_by_xpath('./..')
+        except:
+            self.logger.error("find parent error !")
+            self.logger.debug(traceback.format_exc())
+            self.quit()
+
+    def find_child(self, element, num):
+        try:
+            return element.find_elements_by_css_selector('.ag-cell-value')[num]
+        except:
+            self.logger.error("find child error !")
+            self.logger.debug(traceback.format_exc())
+            self.quit()
+
     def select(self, element_name, box_loc, item_loc, item_feature, num=0, flag=0):
         try:
             self.local(element_name, box_loc, num, flag).click()
@@ -190,7 +207,7 @@ class BasePage:
     def element_disappear(self, element_name, loc, num=0):
         # 等待元素消失后返回true,仍存在遗留bug
         try:
-            self.sleep(0.3)
+            self.sleep(1)
             if WebDriverWait(self.driver, 120).until(EC.staleness_of(self.driver.find_elements(*loc)[num])):
                 self.logger.info("element: %s disappeared !" % element_name)
                 self.sleep(1)
@@ -218,6 +235,22 @@ class BasePage:
     #     # self.logger.error("wait and click: %s error !" % element_name)
     #     # self.logger.debug(traceback.format_exc())
     #     # self.quit()
+
+    def is_enable(self, element_name, element):
+        try:
+            return element.is_enabled()
+        except:
+            self.logger.error("assert %s is enable error !" % element_name)
+            self.logger.debug(traceback.format_exc())
+            self.quit()
+
+    def is_visible(self, element_name, element):
+        try:
+            return element.is_displayed()
+        except:
+            self.logger.error("assert %s is enable error !" % element_name)
+            self.logger.debug(traceback.format_exc())
+            self.quit()
 
     def sleep(self, time):
         sleep(time)
